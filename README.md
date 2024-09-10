@@ -93,12 +93,18 @@ Contributions are welcome! If you want to contribute to the project, please foll
 ##Fork the repository
 
 Create a new branch 
-```bash (git checkout -b feature/YourFeature).```
+```bash
+(git checkout -b feature/YourFeature).
+```
 Make your changes.
 Commit your changes 
-```bash(git commit -m 'Add some feature').```
+```bash
+(git commit -m 'Add some feature').
+```
 Push to the branch 
-```bash(git push origin feature/YourFeature).```
+```bash
+(git push origin feature/YourFeature).
+```
 Open a pull request.
 
 
