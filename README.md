@@ -26,26 +26,31 @@ Follow these steps to set up the project on your local machine:
 
 ### Step 1: Clone the repository
 
-bash
-`git clone https://github.com/yashovardhn/ResumeProcessor.git
+```bash
+git clone https://github.com/yashovardhn/ResumeProcessor.git
 cd ResumeProcessor 
-Step 2: Create a virtual environment`
-bash
-`Copy code
+Step 2: Create a virtual environment
+```
+```bash
+Copy code
 python3 -m venv virt
-source virt/bin/activate  # On Windows use 'virt\Scripts\activate'`
+source virt/bin/activate  # On Windows use 'virt\Scripts\activate'
+```
 Step 3: Install dependencies
-bash
-`Copy code
-pip install -r requirements.txt`
+bash``
+Copy code
+pip install -r requirements.txt
+```
 Step 4: Run database migrations
-bash
-`Copy code
-python manage.py migrate`
+bash```
+Copy code
+python manage.py migrate
+```
 Step 5: Run the server
-bash
-`Copy code
-python manage.py runserver`
+bash```
+Copy code
+python manage.py runserver
+```
 Now, open your browser and go to http://127.0.0.1:8000/api/extract_resume/ to access the API.
 
 Usage
