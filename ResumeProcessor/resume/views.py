@@ -7,7 +7,27 @@ from pyresparser import ResumeParser
 import os
 
 class ResumeExtractionView(APIView):
+    """
+    This class represents a view for extracting candidate information from a resume.
+
+    Methods:
+    - post: Handles POST requests to extract candidate information from a resume.
+
+    """
+
     def post(self, request):
+        """
+        Handles POST requests to extract candidate information from a resume.
+
+        Parameters:
+        - request: The incoming request object.
+
+        Returns:
+        - A Response object with the serialized candidate data if successful.
+        - A Response object with an error message if no file is uploaded.
+
+        """
+
         file = request.FILES.get('file')
         if not file:
             return Response({"error": "No file uploaded"}, status=status.HTTP_400_BAD_REQUEST)
