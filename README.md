@@ -29,28 +29,33 @@ Follow these steps to set up the project on your local machine:
 ```bash
 git clone https://github.com/yashovardhn/ResumeProcessor.git
 cd ResumeProcessor 
-Step 2: Create a virtual environment
 ```
+
+
+# Step 2: Create a virtual environment
 ```bash
-Copy code
 python3 -m venv virt
 source virt/bin/activate  # On Windows use 'virt\Scripts\activate'
 ```
-Step 3: Install dependencies
-bash``
-Copy code
+
+## Step 3: Install dependencies
+```bash
 pip install -r requirements.txt
 ```
-Step 4: Run database migrations
-bash```
+
+## Step 4: Run database migrations
+
+```bash
 Copy code
 python manage.py migrate
 ```
-Step 5: Run the server
-bash```
+
+## Step 5: Run the server
+```bash
 Copy code
 python manage.py runserver
 ```
+
 Now, open your browser and go to http://127.0.0.1:8000/api/extract_resume/ to access the API.
 
 Usage
@@ -61,11 +66,13 @@ Description: Upload a resume for extraction.
 Request Body: JSON object containing the resume data.
 Response: JSON object with extracted information.
 Example Request
-bash
-`Copy code
+```bash
+Copy code
 curl -X POST http://127.0.0.1:8000/api/extract_resume/ \
 -H "Content-Type: application/json" \
--d '{"resume": "&lt;base64_encoded_resume&gt;"}'`
+-d '{"resume": "&lt;base64_encoded_resume&gt;"}'
+```
+
 Example Response
 json
 Copy code
