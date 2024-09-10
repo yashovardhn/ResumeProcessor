@@ -90,17 +90,19 @@ Contributing
 
 Contributions are welcome! If you want to contribute to the project, please follow these steps:
 
-Fork the repository.
-Create a new branch (git checkout -b feature/YourFeature).
+##Fork the repository
+
+Create a new branch 
+```bash (git checkout -b feature/YourFeature).```
 Make your changes.
-Commit your changes (git commit -m 'Add some feature').
-Push to the branch (git push origin feature/YourFeature).
+Commit your changes 
+```bash(git commit -m 'Add some feature').```
+Push to the branch 
+```bash(git push origin feature/YourFeature).```
 Open a pull request.
-License
 
-This project is licensed under the MIT License. See the LICENSE file for details.
 
-Acknowledgements
+## Acknowledgements
 
 Django for the web framework.
 Spacy for natural language processing.
@@ -109,5 +111,5 @@ Contact
 
 For any questions or inquiries, feel free to reach out:
 
-Email: your.email@example.com
+Email: yashovardhn@gmail.com
 GitHub: yashovardhn
