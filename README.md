@@ -75,7 +75,7 @@ curl -X POST http://127.0.0.1:8000/api/extract_resume/ \
 
 Example Response
 json
-Copy code
+```bash
 {
     "message": "Resume extracted successfully",
     "data": {
@@ -85,6 +85,7 @@ Copy code
         ...
     }
 }
+```
 Contributing
 
 Contributions are welcome! If you want to contribute to the project, please follow these steps:
