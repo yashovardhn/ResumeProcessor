@@ -59,3 +59,7 @@ class ResumeExtractionView(APIView):
         # Serialize the candidate data
         serializer = CandidateSerializer(candidate)
         return Response(serializer.data, status=status.HTTP_201_CREATED)
+
+
+
+
